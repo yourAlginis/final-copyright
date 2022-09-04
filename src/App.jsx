@@ -4,10 +4,8 @@ import { Header } from "./components/header";
 import { Videoshow } from "./components/videoShow";
 import { Copywrite } from "./components/generlaCopywrite";
 import { Services } from "./components/services";
-import { DAppBook } from "./components/dAppBook";
-// import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
+import { DAppBook } from "./components/dAppBook"; 
+import { Team } from "./components/Team"; 
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -29,7 +27,10 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Videoshow data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
+      <Videoshow data={landingPageData.Features} />
       <Copywrite data={landingPageData.About} />
+      
+      <Videoshow data={landingPageData.Features} />
       <DAppBook />  
       <Team data={landingPageData.Team} /> 
     </div>

@@ -391,7 +391,7 @@ hr {
 /* Services Section */
 #services { 
   background: linear-gradient(to right, #000428 0%, #7303c0 100%);
-  color: #fff;
+  color: #fff; 
 }
 #services .service-desc {
   margin: 10px 10px 20px;
