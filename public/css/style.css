@@ -187,7 +187,7 @@ hr {
   background: #7b0ca7;
 }
 #btn-custom:hover{
-  color: #fff; 
+  color: #fff;
   border: 5px solid #fff;  
   background:transparent;   
   transition: all 1s;
