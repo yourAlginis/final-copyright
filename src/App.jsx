@@ -4,8 +4,10 @@ import { Header } from "./components/header";
 import { Videoshow } from "./components/videoShow";
 import { Copywrite } from "./components/generlaCopywrite";
 import { Services } from "./components/services";
+import { Contact } from "./components/contact";
 import { DAppBook } from "./components/dAppBook"; 
 import { Team } from "./components/Team"; 
+
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
